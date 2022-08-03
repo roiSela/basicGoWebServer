@@ -31,7 +31,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	fileserver := http.FileServer(http.Dir("C:\\Users\\rugh5\\go\\src\\basicGoWebServer")) //we are creating the handler
+	fileserver := http.FileServer(http.Dir("./")) //we are creating the handler
 	//show index.html when /
 	http.Handle("/", fileserver)
 	http.HandleFunc("/form", formHandler)
