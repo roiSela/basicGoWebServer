@@ -1,4 +1,4 @@
-# basicGoWebServer
+# basic Web Server Written in Go 
 
 run the program and enter this three supported url's.
 
