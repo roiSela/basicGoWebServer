@@ -1,6 +1,6 @@
 # basic Web Server Written in Go 
 
-run the program and enter this three supported url's.
+run the program and enter these three supported url's.
 
 http://localhost:8080/
 
